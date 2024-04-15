@@ -1,0 +1,110 @@
+
+* {
+    margin:0;
+    padding:0;
+    font-family: Krub, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding: 6rem;
+    overflow-x: hidden;
+}
+section{
+    padding: 9rem 9%;
+
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background: #fff;
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0.5rem 0.5rem rgba(0,0,0,.1);
+    text-transform: capitalize;
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.nav-bg {
+    background-color: #ffffff;
+
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navegacion-principal a {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+
+.navegacion-principal a:hover {
+    color: #ffc107
+
+}
+
+/**Hero**/
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/JK.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 991px) {
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+
+}
+
+@media (max-width: 478px) {
+    header {
+        flex-direction: column; 
+        align-items: center; 
+        padding-bottom: 2rem; 
+    }
+
+    .navegacion-principal {
+        margin-top: 1rem; 
+    }
+
+    .navegacion-principal a {
+        display: block; 
+        padding: 1rem; 
+    }
+}
+
+
+
+
+
+
