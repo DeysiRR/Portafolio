@@ -142,16 +142,18 @@ nav {
     z-index: -1;
     transition: 0.5s;
 }
+
 .boton-hero:hover::before {
     top: 0;
 }
 
 /*Estlo de galeria*/
-.destacados{
+.destacados {
     padding: 2rem 0;
-    background:#DBDBD9;
+    background: #DBDBD9;
 }
-.destacados h1{
+
+.destacados h1 {
     color: #000000;
 
 }
@@ -161,7 +163,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 350px;
     padding: 40px;
-    gap:40px
+    gap: 40px
 }
 
 .gallery-item {
@@ -190,17 +192,18 @@ nav {
 footer {
     background-color: #cb9898;
 }
-.footer-container{
+
+.footer-container {
     width: 100%;
     padding: 20px 1px 20px;
 }
 
-.iconos-footer{
+.iconos-footer {
     display: flex;
     justify-content: center;
 }
 
-.iconos-footer a{
+.iconos-footer a {
     text-decoration: none;
     padding: 10px;
     background-color: #fff;
@@ -208,29 +211,31 @@ footer {
     border-radius: 50%;
 }
 
-.iconos-footer a i{
+.iconos-footer a i {
     font-size: 2rem;
     color: #cb9898;
     opacity: 0.9;
 
 }
 
-.iconos-footer a:hover{
+.iconos-footer a:hover {
     background-color: #C2676E;
     transition: 0.5s;
 }
 
-.iconos-footer a:hover i{
+.iconos-footer a:hover i {
     color: #fff;
     transition: 0.5s;
 }
-.footer-nav{
+
+.footer-nav {
     margin: 30px 0;
     flex: 1;
     text-align: center;
     text-transform: capitalize;
 }
-.footer-nav a{
+
+.footer-nav a {
     color: #fff;
     margin: 20px;
     text-decoration: none;
@@ -238,11 +243,13 @@ footer {
     opacity: 0.8;
     transition: 0.5s;
 }
-.footer-bottom{
+
+.footer-bottom {
     padding: 10px;
     text-align: center;
 }
-.footer-bottom p{
+
+.footer-bottom p {
     color: #fff;
     opacity: 0.8;
     font-size: 1rem;
@@ -277,7 +284,7 @@ footer {
         display: initial;
     }
 
-    .hero{
+    .hero {
         min-height: 70vh;
     }
 
@@ -290,58 +297,59 @@ footer {
     }
 
     .footer-container {
-        text-align: center; 
+        text-align: center;
     }
 
     .footer-nav {
         margin: 30px 0;
-        text-align: center; 
+        text-align: center;
     }
 
     .footer-nav a {
-        margin: 10px; 
-        
+        margin: 10px;
+
     }
 
     .footer-bottom {
         padding: 10px;
-        text-align: center; 
+        text-align: center;
     }
 
-}	
+}
 
 /*pamtalla sobre mi*/
 
-.aboutMe{
+.aboutMe {
     width: 100%;
     padding: 50px 8%;
 }
-.contenido{
+
+.contenido {
     display: grid;
-    grid-template-columns: 30% 60%; 
+    grid-template-columns: 30% 60%;
     gap: 70px;
 }
 
 
 
-.imagen{
+.imagen {
     position: relative;
     min-width: 300px;
     height: 380px;
     margin-top: 50px;
 }
 
-.imagen img{
+.imagen img {
     width: 80%;
     height: 90%;
     max-width: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     position: relative;
     z-index: 2;
     left: 6rem;
 }
 
-.imagen::after{
+.imagen::after {
     position: absolute;
     content: '';
     width: 80%;
@@ -351,20 +359,21 @@ footer {
     left: 7rem;
     z-index: 1;
 }
+
 .info {
     padding: 0 20px;
-    max-width: 700px; 
-    margin: 0 auto; 
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.info h1{
+.info h1 {
     color: #000000;
     font-size: 2.5rem;
     margin-bottom: 20px;
     position: relative;
 }
 
-.info h1::before{
+.info h1::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -376,24 +385,25 @@ footer {
 
 
 
-.info h2{
+.info h2 {
     font-weight: 600;
     color: #000000;
     padding: 14px 0px 15px;
-    letter-spacing: 1px;}
-    
+    letter-spacing: 1px;
+}
 
-.info p{
+
+.info p {
     color: #000000;
     font-size: 16px;
     line-height: 1.8;
     text-align: justify;
     padding-bottom: 8px;
-    max-width: 100%; 
+    max-width: 100%;
     overflow-wrap: break-word;
 }
 
-.infoPersonal{
+.infoPersonal {
     display: grid;
     grid-template-columns: repeat(1fr, 1fr);
     gap: 10px 20px;
@@ -401,27 +411,28 @@ footer {
     border-bottom: 1px solid #C2676E;
 }
 
-.infoPersonal div{
+.infoPersonal div {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.infoPersonal div span{
+.infoPersonal div span {
     color: #000000;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.infoPersonal div p{
+.infoPersonal div p {
     color: #000000;
     font-size: 16px;
     line-height: 1.8;
     text-align: justify;
     padding-bottom: 8px;
-    max-width: 100%; 
+    max-width: 100%;
     overflow-wrap: break-word;
 }
-.info button{
+
+.info button {
     min-width: 150px;
     padding: 10px 20px;
     border-radius: 25px;
@@ -435,20 +446,20 @@ footer {
     margin-bottom: 20px;
 }
 
-.info button:hover{
+.info button:hover {
     background-color: #C2676E;
     color: #fff;
 }
 
-.habilidades{
+.habilidades {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px 80px;
-    padding: 40px 50px 70px 50px; 
+    padding: 40px 50px 70px 50px;
 
 }
 
-.subjetc{
+.subjetc {
     font-size: 17px;
     font-weight: thin;
     color: #000000;
@@ -457,7 +468,7 @@ footer {
     letter-spacing: 1px;
 }
 
-.barra{
+.barra {
     width: 100%;
     height: 20px;
     background-color: #cb9898;
@@ -467,17 +478,17 @@ footer {
     border-radius: 10px;
 }
 
-.progreso{
+.progreso {
     position: relative;
     width: 100%;
     height: 100%;
     background-color: #C2676E;
     box-shadow: -1px 1px 10px #fff,
-                -1px 1px 10px #C2676E;
+        -1px 1px 10px #C2676E;
     border-radius: 10px;
 }
 
-.progreso::after{
+.progreso::after {
     position: absolute;
     content: attr(value);
     top: -35px;
@@ -490,77 +501,184 @@ footer {
 
 /* Responsive */
 @media (max-width: 991px) {
-    
-    .contenido {
-      grid-template-columns: 1fr; 
-    }
-  
-    .imagen {
-      min-width: auto; 
-      height: auto;
-      margin-top: 20px;
-    }
-  
-    .imagen img {
-      width: 100%; 
-      height: auto; 
-      left: 0; 
-    }
-  
-    .info {
-      padding: 0 20px; 
-    }
-  
-    .habilidades {
-      grid-template-columns: 1fr; 
-      gap: 10px;
-      padding: 20px; 
-    }
-  
-    .barra {
-      padding: 4px; 
-    }
-  }
-  
-  
 
-  @media (max-width: 768px) {
     .contenido {
-      grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
     }
-  
+
     .imagen {
-      min-width: auto;
-      height: auto; 
-      margin-top: 20px;
+        min-width: auto;
+        height: auto;
+        margin-top: 20px;
     }
-  
+
     .imagen img {
-      width: 100%; 
-      height: auto; 
-      left: 0; 
+        width: 100%;
+        height: auto;
+        left: 0;
     }
-  
+
     .info {
-      padding: 0 20px; 
+        padding: 0 20px;
     }
-  
+
     .habilidades {
-      grid-template-columns: 1fr; 
-      gap: 10px; 
-      padding: 20px; 
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 20px;
     }
-  
+
     .barra {
-      padding: 4px; 
+        padding: 4px;
     }
-  
+}
+
+
+
+@media (max-width: 768px) {
+    .contenido {
+        grid-template-columns: 1fr;
+    }
+
+    .imagen {
+        min-width: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .imagen img {
+        width: 100%;
+        height: auto;
+        left: 0;
+    }
+
+    .info {
+        padding: 0 20px;
+    }
+
+    .habilidades {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .barra {
+        padding: 4px;
+    }
+
     .info button {
-      width: 100%; 
+        width: 100%;
     }
-  }
-  
-    /*Estilo de contacto*/
+}
+
+/* Estilo de blog */
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid #C2676E;
+}
+
+.blog-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog-heading span {
+    color: #C2676E;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.blog-heading h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-top: 0;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.blog-box {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #cb9898;
+    margin: 20px;
+    box-shadow: 0 0 20px #C2676E;
+    overflow: hidden;
+}
+
+.blog-box a {
+    text-decoration: none;
+    color: #C2676E;
+    transition: all ease 0.5s;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-text {
+    padding: 20px;
+}
+
+.blog-text span {
+    color: #cb9898;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.blog-text .blog-title {
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 700;
+}
+
+.blog-text .blog-title:hover {
+    color: #C2676E;
+    transition: all ease 0.5s;
+}
+
+.blog-text p {
+    color: #000000;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .blog-box {
+        width: 100%;
+    }
+}
+
+
+
+/*Estilo de contacto*/
 /* Estilos para pantallas grandes */
 .contacto {
     padding: 50px 55px;
@@ -569,30 +687,30 @@ footer {
     text-align: center;
     width: 340px;
     margin: 5rem auto;
-  }
-  
-  .input-group {
+}
+
+.input-group {
     display: flex;
     flex-direction: column;
     text-align: left;
-  }
-  
-  .contacto h2 {
+}
+
+.contacto h2 {
     color: #000000;
     font-size: 35px;
     margin-bottom: 20px;
     position: relative;
-  }
-  
-  label {
+}
+
+label {
     color: #000000;
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 5px;
-  }
-  
-  input,
-  textarea {
+}
+
+input,
+textarea {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #C2676E;
@@ -600,14 +718,14 @@ footer {
     width: 100%;
     outline: none;
     color: #372e2e;
-  }
-  
-  input::placeholder,
-  textarea::placeholder {
+}
+
+input::placeholder,
+textarea::placeholder {
     color: #000000;
-  }
-  
-  .btn {
+}
+
+.btn {
     padding: 10px 20px;
     border-radius: 25px;
     font-size: 18px;
@@ -618,23 +736,23 @@ footer {
     transition: all 0.3s;
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-color: #C2676E;
     color: #fff;
-  }
-  
-  /* Estilos para pantallas más pequeñas */
-  @media (max-width: 768px) {
+}
+
+/* Estilos para pantallas más pequeñas */
+@media (max-width: 768px) {
     .contacto {
-      width: 70%;
-      padding: 30px;
+        width: 70%;
+        padding: 30px;
     }
-  
+
     .contacto h2 {
-      font-size: 30px;
+        font-size: 30px;
     }
-  }
-  
+}
+
 /* Responsive */
